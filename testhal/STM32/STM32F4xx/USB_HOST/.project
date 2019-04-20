@@ -28,12 +28,12 @@
 		<link>
 			<name>ChibiOS-Contrib-os</name>
 			<type>2</type>
-			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/ChibiOS-contrib/os</locationURI>
+			<locationURI>CHIBIOS_CONTRIB/os</locationURI>
 		</link>
 		<link>
 			<name>ChibiOS-RT-os</name>
 			<type>2</type>
-			<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/ChibiOS-RT/os</locationURI>
+			<locationURI>CHIBIOS/os</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
