@@ -15,6 +15,7 @@
 */
 
 #include "ch.h"
+#include "board_interop.h"
 #include "hal.h"
 #include "ff.h"
 #include <string.h>

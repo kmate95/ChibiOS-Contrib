@@ -1,0 +1,343 @@
++00001065       HPRT: Port connection detected
++00002002 Port 1: attached, wait debounce...
++00004002 Port 1: connected
++00004002 Port 1: Try reset...
+16383.004       HPRT: Port enabled
+00028.994 Port 1: Reset OK, recovery...
+00128.991       DEV[CTRL]: Open EP
+00128.999 Enumerate.
+00129.003 Get first 8 bytes of device descriptor
+00129.096 Configure bMaxPacketSize0 = 64
+00129.107       DEV[CTRL]: Closing EP...
+00129.116       DEV[CTRL]: Closed
+00129.126       DEV[CTRL]: Open EP
+00129.135 Set device address: 1
+00129.197       DEV[CTRL]: Closing EP...
+00129.206       DEV[CTRL]: Closed
+00129.215       DEV[CTRL]: Open EP
+00129.224 Wait stabilization...
+00149.189 Get full device desc
+00149.275 Enumeration finished.
+00149.283 Port 1: Loading langID0...
+00149.327       DEV[CTRL]: STALL
+00149.357 Port 1: device has only one configuration
+00149.371 Reading basic configuration descriptor 0
+00149.455 Selecting configuration 0
+00149.517 Device configured.
+00149.522 New device found.
+00149.526 ----- Device info -----
+00149.530 Device descriptor:
+00149.535       USBSpec=0200, #configurations=1, langID0=0000
+00149.551       Class=09, Subclass=00, Protocol=00
+00149.564       VID=0409, PID=0059, Release=0100
+00149.578 Configuration descriptor (partial):
+00149.584       bConfigurationValue=1, Length=25, #interfaces=1
+00149.600       Current=100mA
+00149.612       SelfPowered=1, RemoteWakeup=1
+00149.623 ----- End Device info -----
+00149.715 ----- Configuration info -----
+00149.721 Configuration descriptor:
+00149.726 Configuration 1, #IFs=1
+00149.737   Interface 0, alt=0, #EPs=1, Class=09, Subclass=00, Protocol=00
+00149.759     Endpoint descriptor, Address=81, Type=3, MaxPacket=1, Interval=255
+00149.781 ----- End Configuration info -----
+00149.788 Try load driver CUSTOM
+00149.798 Try load driver FTDI
+00149.807 Try load driver HUB
+00149.818 Read Hub descriptor
+00149.900 Hub descriptor loaded; 4 ports, wHubCharacteristics=00A9, bPwrOn2PwrGood=50, bHubContrCurrent=100
+00149.926 Alloc port 4
+00149.935 Alloc port 3
+00149.944 Alloc port 2
+00149.953 Alloc port 1
+00149.961 Enable power for port 1
+00150.048 Enable power for port 2
+00150.110 Enable power for port 3
+00150.178 Enable power for port 4
+00250.188       HUB[INT ]: Open EP
+00251.020 HUB: change, 00000004
+00350.313 Port 2: attached, wait debounce...
+00550.354 Port 2: connected
+00550.362 Port 2: Try reset...
+00570.506 Port 2: Reset OK, recovery...
+00670.480       DEV[CTRL]: Open EP
+00670.488 Enumerate.
+00670.491 Get first 8 bytes of device descriptor
+00670.713 Configure bMaxPacketSize0 = 64
+00670.724       DEV[CTRL]: Closing EP...
+00670.733       DEV[CTRL]: Closed
+00670.743       DEV[CTRL]: Open EP
+00670.751 Set device address: 2
+00670.841       DEV[CTRL]: Closing EP...
+00670.850       DEV[CTRL]: Closed
+00670.860       DEV[CTRL]: Open EP
+00670.868 Wait stabilization...
+00690.877 Get full device desc
+00691.135 Enumeration finished.
+00691.143 Port 2: Loading langID0...
+00691.564 Port 2: langID0=0409
+00691.574 Port 2: device has only one configuration
+00691.587 Reading basic configuration descriptor 0
+00691.818 Selecting configuration 0
+00691.916 Device configured.
+00691.921 New device found.
+00691.925 ----- Device info -----
+00691.929 Device descriptor:
+00691.934       USBSpec=0200, #configurations=1, langID0=0409
+00691.950       Class=00, Subclass=00, Protocol=00
+00691.963       VID=054C, PID=02A5, Release=0100
+00692.221       Manufacturer: Sony
+00692.500       Product: Storage Media
+00692.810       Serial Number: 9B4001212210016839
+00692.821 Configuration descriptor (partial):
+00692.827       bConfigurationValue=1, Length=32, #interfaces=1
+00692.843       Current=200mA
+00692.851       SelfPowered=0, RemoteWakeup=0
+00692.863       Name:
+00692.869 ----- End Device info -----
+00693.156 ----- Configuration info -----
+00693.161 Configuration descriptor:
+00693.167 Configuration 1, #IFs=1
+00693.178   Interface 0, alt=0, #EPs=2, Class=08, Subclass=06, Protocol=50
+00693.204     Endpoint descriptor, Address=81, Type=2, MaxPacket=64, Interval=255
+00693.226     Endpoint descriptor, Address=02, Type=2, MaxPacket=64, Interval=255
+00693.248 ----- End Configuration info -----
+00693.255 Try load driver CUSTOM
+00693.265 Try load driver FTDI
+00693.274 Try load driver HUB
+00693.284 Try load driver UVC
+00693.294 Try load driver MSD
+00693.303 Try load driver HID
+00693.313 Try load driver UVC
+00693.323 Try load driver AOA
+00693.331 AOA: Unrecognized VID
+00693.336 AOA: Try if it's an Android device
+00693.405       DEV[CTRL]: STALL
+00693.427 No drivers found for device.
+00693.432 Try load a driver for each IF.
+00693.439 Try load driver CUSTOM
+00693.449 Try load driver FTDI
+00693.463 Try load driver HUB
+00693.472 Try load driver UVC
+00693.482 Try load driver MSD
+00693.492 BULK IN endpoint found: bEndpointAddress=81
+00693.508 BULK OUT endpoint found: bEndpointAddress=02
+00693.524 Reading Max LUN:
+00693.631       max_lun = 1
+00693.639       MSD[BIN ]: Open EP
+00693.647       MSD[BOUT]: Open EP
+00783.983 BLK: Active, connect....
+00783.989 INQUIRY...
+00993.594       PDT=00
+00993.600 TEST UNIT READY...
+00993.726       Ready.
+00993.730 READ CAPACITY(10)...
+00993.884       Block size=512bytes, blocks=30761856 (~15020 MB)
+00993.901 MSD Connected.
+00993.906 BLK: Ready.
+00993.911 BLK: Raw read test (1MB, 10240B blocks)
+01902.678 BLK: Raw read in 9088 ms, 112kB/s
+01902.692 FS: Block driver ready, try mount...
+01902.699 FS: Can't mount. Check file system.
+02002.650 BLK: Ready.
+02002.655 BLK: Raw read test (1MB, 10240B blocks)
+02909.678 BLK: Raw read in 9070 ms, 112kB/s
+02909.692 FS: Block driver ready, try mount...
+02909.699 FS: Can't mount. Check file system.
+03009.629 BLK: Ready.
+03009.634 BLK: Raw read test (1MB, 10240B blocks)
+03916.575 BLK: Raw read in 9069 ms, 112kB/s
+03916.589 FS: Block driver ready, try mount...
+03916.597 FS: Can't mount. Check file system.
+04016.608 BLK: Ready.
+04016.613 BLK: Raw read test (1MB, 10240B blocks)
+04923.267 BLK: Raw read in 9066 ms, 112kB/s
+04923.281 FS: Block driver ready, try mount...
+04923.288 FS: Can't mount. Check file system.
+05023.287 BLK: Ready.
+05023.292 BLK: Raw read test (1MB, 10240B blocks)
+05930.370 BLK: Raw read in 9071 ms, 112kB/s
+05930.384 FS: Block driver ready, try mount...
+05930.391 FS: Can't mount. Check file system.
+06030.366 BLK: Ready.
+06030.371 BLK: Raw read test (1MB, 10240B blocks)
+06937.268 BLK: Raw read in 9069 ms, 112kB/s
+06937.281 FS: Block driver ready, try mount...
+06937.289 FS: Can't mount. Check file system.
+07037.245 BLK: Ready.
+07037.250 BLK: Raw read test (1MB, 10240B blocks)
+07944.678 BLK: Raw read in 9074 ms, 112kB/s
+07944.692 FS: Block driver ready, try mount...
+07944.699 FS: Can't mount. Check file system.
+08044.624 BLK: Ready.
+08044.629 BLK: Raw read test (1MB, 10240B blocks)
+08951.678 BLK: Raw read in 9070 ms, 112kB/s
+08951.692 FS: Block driver ready, try mount...
+08951.699 FS: Can't mount. Check file system.
+09051.703 BLK: Ready.
+09051.708 BLK: Raw read test (1MB, 10240B blocks)
+09958.678 BLK: Raw read in 9070 ms, 112kB/s
+09958.692 FS: Block driver ready, try mount...
+09958.699 FS: Can't mount. Check file system.
+10058.682 BLK: Ready.
+10058.687 BLK: Raw read test (1MB, 10240B blocks)
+10965.678 BLK: Raw read in 9070 ms, 112kB/s
+10965.692 FS: Block driver ready, try mount...
+10965.700 FS: Can't mount. Check file system.
+11065.661 BLK: Ready.
+11065.667 BLK: Raw read test (1MB, 10240B blocks)
+11972.678 BLK: Raw read in 9070 ms, 112kB/s
+11972.692 FS: Block driver ready, try mount...
+11972.699 FS: Can't mount. Check file system.
+12072.640 BLK: Ready.
+12072.646 BLK: Raw read test (1MB, 10240B blocks)
+12979.678 BLK: Raw read in 9070 ms, 112kB/s
+12979.692 FS: Block driver ready, try mount...
+12979.699 FS: Can't mount. Check file system.
+13079.619 BLK: Ready.
+13079.625 BLK: Raw read test (1MB, 10240B blocks)
+13986.678 BLK: Raw read in 9070 ms, 112kB/s
+13986.692 FS: Block driver ready, try mount...
+13986.699 FS: Can't mount. Check file system.
+14086.698 BLK: Ready.
+14086.704 BLK: Raw read test (1MB, 10240B blocks)
+14993.935 BLK: Raw read in 9072 ms, 112kB/s
+14993.949 FS: Block driver ready, try mount...
+14993.956 FS: Can't mount. Check file system.
+15093.877 BLK: Ready.
+15093.883 BLK: Raw read test (1MB, 10240B blocks)
+16000.678 BLK: Raw read in 9068 ms, 112kB/s
+16000.692 FS: Block driver ready, try mount...
+16000.699 FS: Can't mount. Check file system.
+16100.656 BLK: Ready.
+16100.662 BLK: Raw read test (1MB, 10240B blocks)
+00623.678 BLK: Raw read in 9070 ms, 112kB/s
+00623.692 FS: Block driver ready, try mount...
+00623.699 FS: Can't mount. Check file system.
+00723.635 BLK: Ready.
+00723.641 BLK: Raw read test (1MB, 10240B blocks)
+01630.678 BLK: Raw read in 9070 ms, 112kB/s
+01630.692 FS: Block driver ready, try mount...
+01630.699 FS: Can't mount. Check file system.
+01730.614 BLK: Ready.
+01730.620 BLK: Raw read test (1MB, 10240B blocks)
+02637.678 BLK: Raw read in 9070 ms, 112kB/s
+02637.692 FS: Block driver ready, try mount...
+02637.699 FS: Can't mount. Check file system.
+02737.693 BLK: Ready.
+02737.699 BLK: Raw read test (1MB, 10240B blocks)
+03644.678 BLK: Raw read in 9070 ms, 112kB/s
+03644.692 FS: Block driver ready, try mount...
+03644.699 FS: Can't mount. Check file system.
+03744.672 BLK: Ready.
+03744.678 BLK: Raw read test (1MB, 10240B blocks)
+04651.935 BLK: Raw read in 9072 ms, 112kB/s
+04651.948 FS: Block driver ready, try mount...
+04651.956 FS: Can't mount. Check file system.
+04751.951 BLK: Ready.
+04751.957 BLK: Raw read test (1MB, 10240B blocks)
+05659.319 BLK: Raw read in 9073 ms, 112kB/s
+05659.333 FS: Block driver ready, try mount...
+05659.340 FS: Can't mount. Check file system.
+05759.330 BLK: Ready.
+05759.336 BLK: Raw read test (1MB, 10240B blocks)
+06666.267 BLK: Raw read in 9069 ms, 112kB/s
+06666.281 FS: Block driver ready, try mount...
+06666.288 FS: Can't mount. Check file system.
+06766.209 BLK: Ready.
+06766.215 BLK: Raw read test (1MB, 10240B blocks)
+07673.370 BLK: Raw read in 9071 ms, 112kB/s
+07673.384 FS: Block driver ready, try mount...
+07673.391 FS: Can't mount. Check file system.
+07773.388 BLK: Ready.
+07773.394 BLK: Raw read test (1MB, 10240B blocks)
+08680.319 BLK: Raw read in 9069 ms, 112kB/s
+08680.332 FS: Block driver ready, try mount...
+08680.340 FS: Can't mount. Check file system.
+08780.267 BLK: Ready.
+08780.273 BLK: Raw read test (1MB, 10240B blocks)
+09687.114 BLK: Raw read in 9068 ms, 112kB/s
+09687.127 FS: Block driver ready, try mount...
+09687.135 FS: Can't mount. Check file system.
+09787.146 BLK: Ready.
+09787.152 BLK: Raw read test (1MB, 10240B blocks)
+10694.216 BLK: Raw read in 9070 ms, 112kB/s
+10694.230 FS: Block driver ready, try mount...
+10694.237 FS: Can't mount. Check file system.
+10794.225 BLK: Ready.
+10794.231 BLK: Raw read test (1MB, 10240B blocks)
+11701.268 BLK: Raw read in 9070 ms, 112kB/s
+11701.281 FS: Block driver ready, try mount...
+11701.289 FS: Can't mount. Check file system.
+11801.204 BLK: Ready.
+11801.210 BLK: Raw read test (1MB, 10240B blocks)
+12708.165 BLK: Raw read in 9069 ms, 112kB/s
+12708.178 FS: Block driver ready, try mount...
+12708.186 FS: Can't mount. Check file system.
+12808.183 BLK: Ready.
+12808.189 BLK: Raw read test (1MB, 10240B blocks)
+13715.165 BLK: Raw read in 9070 ms, 112kB/s
+13715.178 FS: Block driver ready, try mount...
+13715.186 FS: Can't mount. Check file system.
+13815.162 BLK: Ready.
+13815.168 BLK: Raw read test (1MB, 10240B blocks)
+14722.041 BLK: Raw read in 9069 ms, 112kB/s
+14722.055 FS: Block driver ready, try mount...
+14722.062 FS: Can't mount. Check file system.
+14822.041 BLK: Ready.
+14822.047 BLK: Raw read test (1MB, 10240B blocks)
+15729.114 BLK: Raw read in 9070 ms, 112kB/s
+15729.127 FS: Block driver ready, try mount...
+15729.135 FS: Can't mount. Check file system.
+15829.120 BLK: Ready.
+15829.126 BLK: Raw read test (1MB, 10240B blocks)
+00352.113 BLK: Raw read in 9070 ms, 112kB/s
+00352.127 FS: Block driver ready, try mount...
+00352.134 FS: Can't mount. Check file system.
+00452.099 BLK: Ready.
+00452.105 BLK: Raw read test (1MB, 10240B blocks)
+01359.267 BLK: Raw read in 9071 ms, 112kB/s
+01359.281 FS: Block driver ready, try mount...
+01359.289 FS: Can't mount. Check file system.
+01459.278 BLK: Ready.
+01459.284 BLK: Raw read test (1MB, 10240B blocks)
+02366.165 BLK: Raw read in 9069 ms, 112kB/s
+02366.178 FS: Block driver ready, try mount...
+02366.186 FS: Can't mount. Check file system.
+02466.157 BLK: Ready.
+02466.163 BLK: Raw read test (1MB, 10240B blocks)
+03373.268 BLK: Raw read in 9071 ms, 112kB/s
+03373.281 FS: Block driver ready, try mount...
+03373.289 FS: Can't mount. Check file system.
+03473.236 BLK: Ready.
+03473.242 BLK: Raw read test (1MB, 10240B blocks)
+04380.678 BLK: Raw read in 9074 ms, 112kB/s
+04380.692 FS: Block driver ready, try mount...
+04380.699 FS: Can't mount. Check file system.
+04480.615 BLK: Ready.
+04480.621 BLK: Raw read test (1MB, 10240B blocks)
+05387.678 BLK: Raw read in 9070 ms, 112kB/s
+05387.692 FS: Block driver ready, try mount...
+05387.699 FS: Can't mount. Check file system.
+05487.694 BLK: Ready.
+05487.700 BLK: Raw read test (1MB, 10240B blocks)
+06394.678 BLK: Raw read in 9070 ms, 112kB/s
+06394.692 FS: Block driver ready, try mount...
+06394.699 FS: Can't mount. Check file system.
+06494.673 BLK: Ready.
+06494.679 BLK: Raw read test (1MB, 10240B blocks)
+07401.422 BLK: Raw read in 9067 ms, 112kB/s
+07401.435 FS: Block driver ready, try mount...
+07401.443 FS: Can't mount. Check file system.
+07501.452 BLK: Ready.
+07501.458 BLK: Raw read test (1MB, 10240B blocks)
+08408.678 BLK: Raw read in 9072 ms, 112kB/s
+08408.692 FS: Block driver ready, try mount...
+08408.699 FS: Can't mount. Check file system.
+08508.631 BLK: Ready.
+08508.637 BLK: Raw read test (1MB, 10240B blocks)
+09415.678 BLK: Raw read in 9070 ms, 112kB/s
+09415.692 FS: Block driver ready, try mount...
+09415.699 FS: Can't mount. Check file system.
+09515.710 BLK: Ready.
+09515.716 BLK: Raw read test (1MB, 10240B blocks)
