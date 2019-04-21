@@ -1,0 +1,248 @@
+!%-1--!-i--1!--!-i$--!-i-1!--!-i$--!-i-1!--!-i$--!-i--1!--!-i$--!-i--1!--!-i-$--                     !-i-1!--!-i-$--!--1g--!g-!!----!g --1$---1--%1-%-!!--!-41@---h!!-5--!---!-!---!-                     ---%--5!-!---gH---H-%--!---5-!-#-1?-j11?-----11--5--Æ!!--!--!-1-?!!--!-!-!-!----                     --!-? -!!-!-!--!!-!---1--!-%--!-?%-1--!-%--4---51---g--5--%-!-i-!--!1--%X---!--!                     !----!--!--!-!!---1-g1--%X-+00001064    HPRT: Port connection detected
++00002001 Port 1: attached, wait debounce...
++00004001 Port 1: connected
++00004001 Port 1: Try reset...
+16383.001       HPRT: Port enabled
+00000.008 LS: activity detected, line=0, time=44
+00028.987 Port 1: Reset OK, recovery...
+00128.970       DEV[CTRL]: Open EP
+00128.978 Enumerate.
+00128.982 Get first 8 bytes of device descriptor
+00129.450 Configure bMaxPacketSize0 = 8
+00129.461       DEV[CTRL]: Closing EP...
+00129.470       DEV[CTRL]: Closed
+00129.479       DEV[CTRL]: Open EP
+00129.488 Set device address: 1
+00129.695       DEV[CTRL]: Closing EP...
+00129.704       DEV[CTRL]: Closed
+00129.714       DEV[CTRL]: Open EP
+00129.723 Wait stabilization...
+00149.664 Get full device desc
+00151.089 Enumeration finished.
+00151.097 Port 1: Loading langID0...
+00151.277       DEV[CTRL]: STALL
+00151.299 Port 1: device has only one configuration
+00151.312 Reading basic configuration descriptor 0
+00152.088 Selecting configuration 0
+00152.296 Device configured.
+00152.300 New device found.
+00152.304 ----- Device info -----
+00152.309 Device descriptor:
+00152.314       USBSpec=0200, #configurations=1, langID0=0000
+00152.329       Class=00, Subclass=00, Protocol=00
+00152.343       VID=04F3, PID=0103, Release=0107
+00152.356 Configuration descriptor (partial):
+00152.362       bConfigurationValue=1, Length=59, #interfaces=2
+00152.378       Current=100mA
+00152.386       SelfPowered=0, RemoteWakeup=1
+00152.398 ----- End Device info -----
+00156.176 ----- Configuration info -----
+00156.182 Configuration descriptor:
+00156.187 Configuration 1, #IFs=2
+00156.198   Interface 0, alt=0, #EPs=1, Class=03, Subclass=01, Protocol=01
+00156.219     Class-Specific descriptor, Length=9, Type=21
+00156.236     Endpoint descriptor, Address=81, Type=3, MaxPacket=8, Interval=10
+00156.258   Interface 1, alt=0, #EPs=1, Class=03, Subclass=00, Protocol=00
+00156.280     Class-Specific descriptor, Length=9, Type=21
+00156.296     Endpoint descriptor, Address=82, Type=3, MaxPacket=3, Interval=10
+00156.318 ----- End Configuration info -----
+00156.324 Try load driver FTDI
+00156.334 Try load driver HUB
+00156.348 Try load driver MSD
+00156.357 Try load driver HID
+00156.367 No drivers found for device.
+00156.372 Try load a driver for each IF.
+00156.379 Try load driver FTDI
+00156.388 Try load driver HUB
+00156.398 Try load driver MSD
+00156.408 Try load driver HID
+00156.418 INT IN endpoint found: bEndpointAddress=81
+00156.433 HID: BOOT protocol keyboard found
+00156.441 Try load driver FTDI
+00156.451 Try load driver HUB
+00156.460 Try load driver MSD
+00156.470 Try load driver HID
+00156.481 INT IN endpoint found: bEndpointAddress=82
+00156.496 HID: bInterfaceSubClass=00, generic HID
+00183.967 HID: Connected, HID0
+00183.978       HID[IIN ]: Open EP
+00184.409 HID: Connected, HID1
+00184.420       HID[IIN ]: Open EP
+04137.158 Keyboard report: modifier=00, keys=1C 00 00 00 00 00
+04248.115 Keyboard report: modifier=00, keys=00 00 00 00 00 00
+09049.114 Keyboard report: modifier=00, keys=0D 00 00 00 00 00
+09170.116 Keyboard report: modifier=00, keys=00 00 00 00 00 00
+02888.114 Keyboard report: modifier=02, keys=00 00 00 00 00 00
+03219.159 Keyboard report: modifier=02, keys=0D 00 00 00 00 00
+03309.115 Keyboard report: modifier=02, keys=00 00 00 00 00 00
+03480.159 Keyboard report: modifier=00, keys=00 00 00 00 00 00
+08336.158 Keyboard report: modifier=00, keys=12 00 00 00 00 00
+08346.122 Keyboard report: modifier=00, keys=12 0F 00 00 00 00
+08377.157 Keyboard report: modifier=00, keys=12 00 00 00 00 00
+08387.116 Keyboard report: modifier=00, keys=00 00 00 00 00 00
+10498.158 Keyboard report: modifier=00, keys=2F 00 00 00 00 00
+10508.115 Keyboard report: modifier=00, keys=2F 27 00 00 00 00
+10518.114 Keyboard report: modifier=00, keys=2F 27 32 00 00 00
+10529.115 Keyboard report: modifier=00, keys=2F 32 00 00 00 00
+10551.115 Keyboard report: modifier=00, keys=32 00 00 00 00 00
+10572.116 Keyboard report: modifier=00, keys=00 00 00 00 00 00
+10603.158 Keyboard report: modifier=00, keys=27 00 00 00 00 00
+10613.116 Keyboard report: modifier=00, keys=27 32 00 00 00 00
+10623.114 Keyboard report: modifier=00, keys=27 32 2F 00 00 00
+10634.115 Keyboard report: modifier=00, keys=01 01 01 01 01 01
+10796.114 Keyboard report: modifier=00, keys=27 32 2F 00 00 00
+10837.114 Keyboard report: modifier=00, keys=32 2F 00 00 00 00
+10847.115 Keyboard report: modifier=00, keys=2F 00 00 00 00 00
+10858.115 Keyboard report: modifier=00, keys=00 00 00 00 00 00
++00000000       HPRT: Port disabled due to disconnect
++00000000       HID[IIN ]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000000 HID: URB IN disconnected
++00000000       HID[IIN ]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000000 HID: URB IN disconnected
++00000000 DISCINT: Port disconnection detected
++00000738 Port 1: disconnected
++00000738 Port 1: unload driver HID
++00000738       HID[IIN ]: Closing EP...
++00000738       HID[IIN ]: Closed
++00000738 Port 1: unload driver HID
++00000738       HID[IIN ]: Closing EP...
++00000738       HID[IIN ]: Closed
++00000738       HID[CTRL]: Closing EP...
++00000738       HID[CTRL]: Closed
++00000738 Free address 1
++00288460       HPRT: Port connection detected
++00288739 Port 1: attached, wait debounce...
++00290739 Port 1: connected
++00290739 Port 1: Try reset...
+16383.005       HPRT: Port enabled
+00000.008 LS: activity detected, line=0, time=45
+00028.987 Port 1: Reset OK, recovery...
+00128.970       DEV[CTRL]: Open EP
+00128.978 Enumerate.
+00128.982 Get first 8 bytes of device descriptor
+00129.318 Configure bMaxPacketSize0 = 8
+00129.329       DEV[CTRL]: Closing EP...
+00129.338       DEV[CTRL]: Closed
+00129.347       DEV[CTRL]: Open EP
+00129.356 Set device address: 1
+00129.572       DEV[CTRL]: Closing EP...
+00129.581       DEV[CTRL]: Closed
+00129.591       DEV[CTRL]: Open EP
+00129.599 Wait stabilization...
+00149.565 Get full device desc
+00150.282 Enumeration finished.
+00150.290 Port 1: Loading langID0...
+00150.885 Port 1: langID0=0409
+00150.895 Port 1: device has only one configuration
+00150.908 Reading basic configuration descriptor 0
+00151.393 Selecting configuration 0
+00151.607 Device configured.
+00151.611 New device found.
+00151.615 ----- Device info -----
+00151.620 Device descriptor:
+00151.624       USBSpec=0200, #configurations=1, langID0=0409
+00151.640       Class=00, Subclass=00, Protocol=00
+00151.654       VID=0458, PID=003A, Release=0100
+00152.304       Manufacturer: Genius
+00153.293       Product: USB Optical Mouse
+00153.304       Serial Number:
+00153.311 Configuration descriptor (partial):
+00153.318       bConfigurationValue=1, Length=34, #interfaces=1
+00153.334       Current=100mA
+00153.342       SelfPowered=0, RemoteWakeup=1
+00153.354       Name:
+00153.360 ----- End Device info -----
+00154.282 ----- Configuration info -----
+00154.287 Configuration descriptor:
+00154.293 Configuration 1, #IFs=1
+00154.304   Interface 0, alt=0, #EPs=1, Class=03, Subclass=01, Protocol=02
+00154.325     Class-Specific descriptor, Length=9, Type=21
+00154.342     Endpoint descriptor, Address=81, Type=3, MaxPacket=4, Interval=10
+00154.363 ----- End Configuration info -----
+00154.370 Try load driver FTDI
+00154.379 Try load driver HUB
+00154.389 Try load driver MSD
+00154.399 Try load driver HID
+00154.408 No drivers found for device.
+00154.413 Try load a driver for each IF.
+00154.420 Try load driver FTDI
+00154.429 Try load driver HUB
+00154.439 Try load driver MSD
+00154.449 Try load driver HID
+00154.460 INT IN endpoint found: bEndpointAddress=81
+00154.474 HID: BOOT protocol mouse found
+00247.448 HID: Connected, HID0
+00247.459       HID[IIN ]: Open EP
+15917.090 Mouse report: buttons=00, Dx=3, Dy=-3
+15927.090 Mouse report: buttons=00, Dx=20, Dy=9
+15937.090 Mouse report: buttons=00, Dx=32, Dy=15
+15947.090 Mouse report: buttons=00, Dx=50, Dy=7
+15957.090 Mouse report: buttons=00, Dx=46, Dy=3
+15967.091 Mouse report: buttons=00, Dx=48, Dy=0
+15977.091 Mouse report: buttons=00, Dx=39, Dy=-7
+15987.090 Mouse report: buttons=00, Dx=32, Dy=-12
+15997.090 Mouse report: buttons=00, Dx=18, Dy=-10
+16007.091 Mouse report: buttons=00, Dx=7, Dy=-5
+16017.090 Mouse report: buttons=00, Dx=-2, Dy=-6
+16027.092 Mouse report: buttons=00, Dx=-4, Dy=-4
+16037.091 Mouse report: buttons=00, Dx=-5, Dy=-5
+16047.092 Mouse report: buttons=00, Dx=-1, Dy=-1
+16077.090 Mouse report: buttons=00, Dx=-1, Dy=1
+16087.091 Mouse report: buttons=00, Dx=0, Dy=2
+16097.090 Mouse report: buttons=00, Dx=4, Dy=8
+16107.093 Mouse report: buttons=00, Dx=3, Dy=8
+16117.090 Mouse report: buttons=00, Dx=3, Dy=8
+16127.090 Mouse report: buttons=00, Dx=4, Dy=10
+16137.090 Mouse report: buttons=00, Dx=1, Dy=6
+16147.090 Mouse report: buttons=00, Dx=0, Dy=8
+16157.090 Mouse report: buttons=00, Dx=0, Dy=10
+16167.091 Mouse report: buttons=00, Dx=-1, Dy=9
+16177.091 Mouse report: buttons=00, Dx=-6, Dy=9
+16187.090 Mouse report: buttons=00, Dx=-8, Dy=10
+16197.090 Mouse report: buttons=00, Dx=-7, Dy=7
+16207.090 Mouse report: buttons=00, Dx=-9, Dy=9
+16217.091 Mouse report: buttons=00, Dx=-10, Dy=7
+16227.091 Mouse report: buttons=00, Dx=-10, Dy=7
+16237.091 Mouse report: buttons=00, Dx=-12, Dy=3
+16247.090 Mouse report: buttons=00, Dx=-17, Dy=2
+16257.090 Mouse report: buttons=00, Dx=-21, Dy=0
+16267.091 Mouse report: buttons=00, Dx=-29, Dy=0
+16277.090 Mouse report: buttons=00, Dx=-33, Dy=3
+16287.091 Mouse report: buttons=00, Dx=-27, Dy=0
+16297.091 Mouse report: buttons=00, Dx=-17, Dy=0
+16307.092 Mouse report: buttons=00, Dx=-5, Dy=-3
+00183.091 Mouse report: buttons=00, Dx=-1, Dy=0
+00193.091 Mouse report: buttons=00, Dx=-12, Dy=-2
+00203.091 Mouse report: buttons=00, Dx=-25, Dy=-3
+00213.090 Mouse report: buttons=00, Dx=-48, Dy=-7
+00223.091 Mouse report: buttons=00, Dx=-51, Dy=-15
+00233.096 Mouse report: buttons=00, Dx=-16, Dy=-13
+00243.091 Mouse report: buttons=00, Dx=-1, Dy=-9
+00253.090 Mouse report: buttons=00, Dx=0, Dy=-7
+00263.090 Mouse report: buttons=00, Dx=0, Dy=-6
+00273.091 Mouse report: buttons=00, Dx=0, Dy=-1
+06473.090 Mouse report: buttons=02, Dx=0, Dy=0
+06613.090 Mouse report: buttons=00, Dx=0, Dy=0
+07233.090 Mouse report: buttons=00, Dx=-2, Dy=1
+07243.092 Mouse report: buttons=00, Dx=-1, Dy=0
+07323.090 Mouse report: buttons=00, Dx=-1, Dy=14
+07333.091 Mouse report: buttons=00, Dx=-5, Dy=25
+07343.091 Mouse report: buttons=00, Dx=-7, Dy=23
+07353.090 Mouse report: buttons=00, Dx=-5, Dy=18
+07363.091 Mouse report: buttons=01, Dx=-1, Dy=12
+07373.090 Mouse report: buttons=01, Dx=2, Dy=5
+07383.090 Mouse report: buttons=01, Dx=2, Dy=2
+07473.090 Mouse report: buttons=00, Dx=0, Dy=0
+07483.092 Mouse report: buttons=00, Dx=0, Dy=-1
+07493.092 Mouse report: buttons=00, Dx=-2, Dy=-1
++00000000       HPRT: Port disabled due to disconnect
++00000000       HID[IIN ]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000000 HID: URB IN disconnected
++00000000 DISCINT: Port disconnection detected
++00000354 Port 1: disconnected
++00000354 Port 1: unload driver HID
++00000354       HID[IIN ]: Closing EP...
++00000354       HID[IIN ]: Closed
++00000354       HID[CTRL]: Closing EP...
++00000354       HID[CTRL]: Closed
++00000354 Free address 1

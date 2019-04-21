@@ -1,0 +1,610 @@
+I
++00232679       HPRT: Port connection detected
++00233001 Port 1: attached, wait debounce...
++00235001 Port 1: connected
++00235001 Port 1: Try reset...
+16383.004       HPRT: Port enabled
+00028.993 Port 1: Reset OK, recovery...
+00128.991       DEV[CTRL]: Open EP
+00128.999 Enumerate.
+00129.003 Get first 8 bytes of device descriptor
+00129.096 Configure bMaxPacketSize0 = 64
+00129.107       DEV[CTRL]: Closing EP...
+00129.116       DEV[CTRL]: Closed
+00129.126       DEV[CTRL]: Open EP
+00129.134 Set device address: 1
+00129.196       DEV[CTRL]: Closing EP...
+00129.205       DEV[CTRL]: Closed
+00129.215       DEV[CTRL]: Open EP
+00129.223 Wait stabilization...
+00149.189 Get full device desc
+00149.275 Enumeration finished.
+00149.283 Port 1: Loading langID0...
+00149.327       DEV[CTRL]: STALL
+00149.353 Port 1: device has only one configuration
+00149.366 Reading basic configuration descriptor 0
+00149.451 Selecting configuration 0
+00149.513 Device configured.
+00149.517 New device found.
+00149.521 ----- Device info -----
+00149.526 Device descriptor:
+00149.530       USBSpec=0200, #configurations=1, langID0=0000
+00149.546       Class=09, Subclass=00, Protocol=00
+00149.560       VID=0409, PID=0059, Release=0100
+00149.573 Configuration descriptor (partial):
+00149.579       bConfigurationValue=1, Length=25, #interfaces=1
+00149.595       Current=100mA
+00149.607       SelfPowered=1, RemoteWakeup=1
+00149.619 ----- End Device info -----
+00149.710 ----- Configuration info -----
+00149.716 Configuration descriptor:
+00149.721 Configuration 1, #IFs=1
+00149.732   Interface 0, alt=0, #EPs=1, Class=09, Subclass=00, Protocol=00
+00149.754     Endpoint descriptor, Address=81, Type=3, MaxPacket=1, Interval=255
+00149.776 ----- End Configuration info -----
+00149.782 Try load driver FTDI
+00149.792 Try load driver HUB
+00149.803 Read Hub descriptor
+00149.882 Hub descriptor loaded; 4 ports, wHubCharacteristics=00A9, bPwrOn2PwrGood=50, bHubContrCurrent=100
+00149.908 Alloc port 4
+00149.917 Alloc port 3
+00149.926 Alloc port 2
+00149.934 Alloc port 1
+00149.943 Enable power for port 1
+00150.030 Enable power for port 2
+00150.092 Enable power for port 3
+00150.157 Enable power for port 4
+00250.188       HUB[INT ]: Open EP
+00251.020 HUB: change, 0000000E
+00350.313 Port 1: attached, wait debounce...
+00506.020 HUB: change, 0000000C
+00550.353 Port 1: connected
+00550.362 Port 1: Try reset...
+00570.504 Port 1: Reset OK, recovery...
+00670.480       DEV[CTRL]: Open EP
+00670.488 Enumerate.
+00670.491 Get first 8 bytes of device descriptor
+00670.719 Configure bMaxPacketSize0 = 64
+00670.731       DEV[CTRL]: Closing EP...
+00670.740       DEV[CTRL]: Closed
+00670.749       DEV[CTRL]: Open EP
+00670.758 Set device address: 2
+00670.843       DEV[CTRL]: Closing EP...
+00670.852       DEV[CTRL]: Closed
+00670.862       DEV[CTRL]: Open EP
+00670.870 Wait stabilization...
+00690.877 Get full device desc
+00691.133 Enumeration finished.
+00691.142 Port 1: Loading langID0...
+00691.564 Port 1: langID0=0409
+00691.574 Port 1: device has only one configuration
+00691.588 Reading basic configuration descriptor 0
+00691.826 Selecting configuration 0
+00691.920 Device configured.
+00691.924 New device found.
+00691.928 ----- Device info -----
+00691.933 Device descriptor:
+00691.937       USBSpec=0200, #configurations=1, langID0=0409
+00691.953       Class=00, Subclass=00, Protocol=00
+00691.967       VID=054C, PID=02A5, Release=0100
+00692.222       Manufacturer: Sony
+00692.501       Product: Storage Media
+00692.810       Serial Number: 9B4001212210016839
+00692.821 Configuration descriptor (partial):
+00692.828       bConfigurationValue=1, Length=32, #interfaces=1
+00692.844       Current=200mA
+00692.852       SelfPowered=0, RemoteWakeup=0
+00692.863       Name:
+00692.870 ----- End Device info -----
+00693.163 ----- Configuration info -----
+00693.168 Configuration descriptor:
+00693.174 Configuration 1, #IFs=1
+00693.184   Interface 0, alt=0, #EPs=2, Class=08, Subclass=06, Protocol=50
+00693.211     Endpoint descriptor, Address=81, Type=2, MaxPacket=64, Interval=255
+00693.233     Endpoint descriptor, Address=02, Type=2, MaxPacket=64, Interval=255
+00693.255 ----- End Configuration info -----
+00693.261 Try load driver FTDI
+00693.271 Try load driver HUB
+00693.281 Try load driver MSD
+00693.290 Try load driver HID
+00693.299 No drivers found for device.
+00693.305 Try load a driver for each IF.
+00693.311 Try load driver FTDI
+00693.321 Try load driver HUB
+00693.331 Try load driver MSD
+00693.341 BULK IN endpoint found: bEndpointAddress=81
+00693.357 BULK OUT endpoint found: bEndpointAddress=02
+00693.372 Reading Max LUN:
+00693.486       max_lun = 1
+00693.494       MSD[BIN ]: Open EP
+00693.503       MSD[BOUT]: Open EP
+00693.636 Port 2: attached, wait debounce...
+00761.020 HUB: change, 0000000C
+00783.979 BLK: Active, connect....
+00783.985 INQUIRY...
+00893.661 Port 2: connected
+00893.673 Port 2: Try reset...
+00913.816 Port 2: Reset OK, recovery...
+00994.768       PDT=00
+00994.774 TEST UNIT READY...
+00994.906       Ready.
+00994.910 READ CAPACITY(10)...
+00995.075       Block size=512bytes, blocks=30761856 (~15020 MB)
+00995.091 MSD Connected.
+00995.096 BLK: Ready.
+00995.101 BLK: Raw read test (1MB, 10240B blocks)
+01013.772       DEV[CTRL]: Open EP
+01013.785 Enumerate.
+01013.788 Get first 8 bytes of device descriptor
+01014.612 Configure bMaxPacketSize0 = 8
+01014.623       DEV[CTRL]: Closing EP...
+01014.632       DEV[CTRL]: Closed
+01014.641       DEV[CTRL]: Open EP
+01014.650 Set device address: 3
+01015.020       DEV[CTRL]: TRERR
++00000000       HPRT: Port disabled due to port babble
++00000000       DEV[CTRL]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000000       DEV[CTRL]: URB had channel 1 assigned, halt_reason = 4
++00000000       MSD[BIN ]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000000       MSD[BIN ]: URB had channel 0 assigned, halt_reason = 0
++00000001       HUB[INT ]: Abort URB, USBH_URBSTATUS_DISCONNECTED
++00000001       HUB[INT ]: URB had channel 4 assigned, halt_reason = 0
++00000001 HUB: URB disconnected, aborting poll
++00000001 HAINT=00000000, HAINTMSK=00000000
++00000001       MSD: Data phase: status = 7 (!= OK), resetting
++00000001       MSD[CTRL]: Can't submit URB, port disabled
++00000002 Error
++00000002 Free address 3
++00000002       DEV[CTRL]: Closing EP...
++00000002       DEV[CTRL]: Closed
++00000002 Port 2: enumeration failed; retry reset & enumeration
++00000002 Port 2: Try reset...
++00000002       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000202       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000203       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000204       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000205       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000206       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000207       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000208       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000209       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000210       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000211       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000212       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000213       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000214       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000215       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000216       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000217       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000218       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000219       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000220       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000221       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000222       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000223       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000224       HUB[CTRL]: Can't submit URB, port disabled
++00000225       HUB[CTRL]: Can't submit URB, port disabled
++00000225       HUB[CTRL]: Can't submit URB, port disabled
++00000225       HUB[CTRL]: Can't submit URB, port disabled
++00000225       HUB[CTRL]: Can't submit URB, port disabled
++00000225       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000226       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000227       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000228       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000229       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000230       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000231       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000232       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000233       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000234       HUB[CTRL]: Can't submit URB, port disabled
++00000235       HUB[CTRL]: Can't submit URB, port disabled
++00000235       HUB[CTRL]: Can't submit URB, port disabled
++00000235       HUB[CTRL]: Can't submit URB, port disabled
++00000235       HUB[CTRL]: Can't submit URB, port disabled
++00000235       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000236       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000237       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000238       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000239       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000240       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000241       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000242       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000243       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000244       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000245       HUB[CTRL]: Can't submit URB, port disabled
++00000246       HUB[CTRL]: Can't submit URB, port disabled
++00000246       HUB[CTRL]: Can't submit URB, port disabled
++00000246       HUB[CTRL]: Can't submit URB, port disabled
++00000246       HUB[CTRL]: Can't submit URB, port disabled
++00000246       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000247       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000248       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000249       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000250       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000251       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000252       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000253       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000254       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000255       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000256       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000257       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000258       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000259       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000260       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000261       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000262       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000263       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000264       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000265       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000266       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000267       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000268       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000269       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000270       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000271       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000272       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000273       HUB[CTRL]: Can't submit URB, port disabled
++00000274       HUB[CTRL]: Can't submit URB, port disabled
++00000274       HUB[CTRL]: Can't submit URB, port disabled
++00000274       HUB[CTRL]: Can't submit URB, port disabled
++00000274       HUB[CTRL]: Can't submit URB, port disabled
++00000274       HUB[
++00000903       HUB[CTRL]: Can't submit URB, port disabled
++00000903       HUB[CTRL]: Can't submit
++00001604       HUB[CTRL]: Can't submit URB, port disabled
++00001604       HUB[CTRL]: Can't submit URB,
++00003001 BLK: Ready.
++00003001 BLK: Raw read test (1MB, 10240B blocks)
++00003001       MSD[BOUT]: Can't submit URB, port disabled
++00003001       MSD: Control phase: status = 7 (!= OK), actual_len = 0 (expected to send 31)
++00003001       MSD[CTRL]: Can't submit URB, port disabled
++00003105 Port 1: disconnected
++00003105 Port 1: unload driver HUB
++00003105       HUB[INT ]: Closing EP...
++00003105       HUB[INT ]:

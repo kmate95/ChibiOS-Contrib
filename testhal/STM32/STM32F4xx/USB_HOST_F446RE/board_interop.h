@@ -14,6 +14,8 @@
 #define LINE_OVER_CURRENT           PAL_LINE(GPIOD, 5U)
 #define LINE_OTG_FS_POWER_ON        PAL_LINE(GPIOC, 0U)
 
+#define USBH_FORCE_DEVSPEED USBH_DEVSPEED_LOW
+
 #define GPIOC_OTG_FS_POWER_ON       0U
 #define GPIOA_VBUS_FS               9U
 #define GPIOA_OTG_FS_ID             10U

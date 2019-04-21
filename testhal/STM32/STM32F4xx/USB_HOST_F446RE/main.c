@@ -45,6 +45,22 @@ static uint8_t buf[] =
     "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef";
 #endif
 
+/*
+ * Green LED blinker thread, times are in milliseconds.
+ */
+static THD_WORKING_AREA(waBlink, 128);
+static THD_FUNCTION(Blink, arg) {
+
+  (void)arg;
+  chRegSetThreadName("blinker");
+  while (true) {
+    palClearPad(GPIOA, GPIOA_LED_GREEN);
+    chThdSleepMilliseconds(500);
+    palSetPad(GPIOA, GPIOA_LED_GREEN);
+    chThdSleepMilliseconds(500);
+  }
+}
+
 #if HAL_USBH_USE_FTDI
 #include "usbh/dev/ftdi.h"
 #include "shell.h"
@@ -891,6 +907,8 @@ int main(void) {
     sdStart(&SD2, NULL);
     palSetPadMode(GPIOA, 2, PAL_MODE_ALTERNATE(7));
     palSetPadMode(GPIOA, 3, PAL_MODE_ALTERNATE(7));
+
+    chThdCreateStatic(waBlink, sizeof(waBlink), NORMALPRIO, Blink, NULL);
 
 #if STM32_USBH_USE_OTG1
     //VBUS - configured in board.h

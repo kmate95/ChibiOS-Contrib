@@ -3,6 +3,7 @@
 	<name>STM32F446-USB_HOST</name>
 	<comment></comment>
 	<projects>
+		<project>ChibiStudio Tools</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

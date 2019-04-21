@@ -173,9 +173,9 @@
 /*===========================================================================*/
 
 /* main driver */
-#define HAL_USBH_PORT_DEBOUNCE_TIME                   200
-#define HAL_USBH_PORT_RESET_TIMEOUT                   500
-#define HAL_USBH_DEVICE_ADDRESS_STABILIZATION         20
+#define HAL_USBH_PORT_DEBOUNCE_TIME                   200 // was 200
+#define HAL_USBH_PORT_RESET_TIMEOUT                   500 // was 500
+#define HAL_USBH_DEVICE_ADDRESS_STABILIZATION         40 // was 20
 #define HAL_USBH_CONTROL_REQUEST_DEFAULT_TIMEOUT	    OSAL_MS2I(1000)
 
 /* MSD */
@@ -196,7 +196,7 @@
 #define HAL_USBHFTDI_DEFAULT_XOFF                     0x13
 
 /* AOA */
-#define HAL_USBH_USE_AOA                              TRUE
+#define HAL_USBH_USE_AOA                              FALSE
 
 #define HAL_USBHAOA_MAX_INSTANCES                     1
 /* Uncomment this if you need a filter for AOA devices:
@@ -211,12 +211,12 @@
 #define HAL_USBHAOA_DEFAULT_AUDIO_MODE                USBHAOA_AUDIO_MODE_DISABLED
 
 /* UVC */
-#define HAL_USBH_USE_UVC                              TRUE
+#define HAL_USBH_USE_UVC                              FALSE
 
 #define HAL_USBHUVC_MAX_INSTANCES                     1
 #define HAL_USBHUVC_MAX_MAILBOX_SZ                    70
 #define HAL_USBHUVC_WORK_RAM_SIZE                     20000
-#define HAL_USBHUVC_STATUS_PACKETS_COUNT              10
+#define HAL_USBHUVC_STATUS_PACKETS_COUNT              20
 
 /* HID */
 #define HAL_USBH_USE_HID                              TRUE
@@ -227,9 +227,9 @@
 #define HAL_USBH_USE_HUB                              TRUE
 
 #define HAL_USBHHUB_MAX_INSTANCES                     1
-#define HAL_USBHHUB_MAX_PORTS                         6
+#define HAL_USBHHUB_MAX_PORTS                         4
 
-#define HAL_USBH_USE_ADDITIONAL_CLASS_DRIVERS		  TRUE
+#define HAL_USBH_USE_ADDITIONAL_CLASS_DRIVERS		  FALSE
 
 /* debug */
 #define USBH_DEBUG_ENABLE                             TRUE
